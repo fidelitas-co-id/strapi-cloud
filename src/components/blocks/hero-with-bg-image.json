@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_hero_with_bg_images",
+  "info": {
+    "displayName": "heroWithBgImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "text"
+    },
+    "lists": {
+      "type": "component",
+      "component": "elements.list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

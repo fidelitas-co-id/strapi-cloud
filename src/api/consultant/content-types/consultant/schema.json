@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consultants",
+  "info": {
+    "singularName": "consultant",
+    "pluralName": "consultants",
+    "displayName": "Consultant"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "title": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contacts": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": true
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "experienceHighlight": {
+      "type": "richtext"
+    },
+    "areaOfPractice": {
+      "type": "richtext"
+    },
+    "qualification": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

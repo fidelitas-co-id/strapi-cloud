@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "Cta"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "component": "blocks.cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

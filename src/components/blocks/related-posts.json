@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_related_posts",
+  "info": {
+    "displayName": "relatedPosts"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
