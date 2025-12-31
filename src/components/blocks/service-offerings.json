@@ -15,6 +15,11 @@
       "type": "component",
       "component": "elements.link",
       "repeatable": false
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
     }
   },
   "config": {}

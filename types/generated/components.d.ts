@@ -46,7 +46,7 @@ export interface BlocksHeroWithBgImage extends Struct.ComponentSchema {
     heading: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images'>;
     lists: Schema.Attribute.Component<'elements.list', true>;
-    subHeading: Schema.Attribute.Text;
+    subHeading: Schema.Attribute.String;
   };
 }
 
@@ -69,6 +69,10 @@ export interface BlocksRelatedPosts extends Struct.ComponentSchema {
     displayName: 'relatedPosts';
   };
   attributes: {
+    categories: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::category.category'
+    >;
     description: Schema.Attribute.Text;
     heading: Schema.Attribute.String;
     link: Schema.Attribute.Component<'elements.link', false>;
@@ -84,6 +88,7 @@ export interface BlocksServiceOfferings extends Struct.ComponentSchema {
     description: Schema.Attribute.Text;
     heading: Schema.Attribute.String;
     link: Schema.Attribute.Component<'elements.link', false>;
+    services: Schema.Attribute.Relation<'oneToMany', 'api::service.service'>;
   };
 }
 

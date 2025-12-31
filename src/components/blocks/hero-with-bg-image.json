@@ -16,7 +16,7 @@
       "type": "string"
     },
     "subHeading": {
-      "type": "text"
+      "type": "string"
     },
     "lists": {
       "type": "component",

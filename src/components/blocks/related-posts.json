@@ -15,6 +15,11 @@
       "type": "component",
       "component": "elements.link",
       "repeatable": false
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
     }
   },
   "config": {}
