@@ -38,7 +38,7 @@
     },
     "metaRobots": {
       "type": "string",
-      "default": "follow, index",
+      "default": "index, follow",
       "regex": "[^,]+"
     },
     "metaViewport": {

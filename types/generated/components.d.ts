@@ -180,7 +180,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
       }>;
     metaImage: Schema.Attribute.Media<'images'>;
     metaRobots: Schema.Attribute.String &
-      Schema.Attribute.DefaultTo<'follow, index'>;
+      Schema.Attribute.DefaultTo<'index, follow'>;
     metaTitle: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.SetMinMaxLength<{
