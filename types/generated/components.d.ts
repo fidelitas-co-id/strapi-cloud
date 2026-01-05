@@ -33,7 +33,7 @@ export interface BlocksCta extends Struct.ComponentSchema {
     displayName: 'Cta';
   };
   attributes: {
-    cards: Schema.Attribute.Component<'blocks.cards', true>;
+    cards: Schema.Attribute.Component<'elements.card', true>;
   };
 }
 

@@ -7,7 +7,7 @@
   "attributes": {
     "cards": {
       "type": "component",
-      "component": "blocks.cards",
+      "component": "elements.card",
       "repeatable": true
     }
   },
