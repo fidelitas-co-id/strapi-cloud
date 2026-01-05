@@ -112,7 +112,7 @@ export interface ElementsCard extends Struct.ComponentSchema {
     displayName: 'Card';
   };
   attributes: {
-    description: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
     icon: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images'>;
     link: Schema.Attribute.Component<'elements.link', false>;
